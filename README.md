@@ -125,7 +125,7 @@ Contributions are welcome! If you'd like to contribute to `z80asm`, please follo
 
 ## License
 
-`z80asm` is licensed under the **GNU General Public License (GPL)**. See the [LICENSE](https://LICENSE) file for more details.
+`z80asm` is licensed under the **GNU General Public License (GPL)**. See the [LICENSE](GPL3) file for more details.
 
 - - -
 
