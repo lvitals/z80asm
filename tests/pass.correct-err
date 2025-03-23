@@ -1,0 +1,5 @@
+pass.asm:42: warning: expression fully enclosed in parenthesis
+pass.asm:44: warning: byte value 49155 (0xc003) truncated
+pass.asm:46: warning: word value 74565 (0x12345) truncated
+pass.asm:48: warning: word value -32769 (0xffff7fff) truncated
+pass.asm:49: warning: byte value -129 (0xffffff7f) truncated

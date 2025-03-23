@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-23 17:26-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:50
+#, c-format
+msgid ""
+"Usage: %s [options] [input files]\n"
+"\n"
+"Possible options are:\n"
+"-h\t--help\t\tDisplay this help text and exit.\n"
+"-V\t--version\tDisplay version information and exit.\n"
+"-v\t--verbose\tBe verbose.  Specify again to be more verbose.\n"
+"-l\t--list\t\tWrite a list file.\n"
+"-L\t--label\t\tWrite a label file.\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:60
+#, c-format
+msgid ""
+"-p\t--label-prefix\tprefix all labels with this prefix.\n"
+"-i\t--input\t\tSpecify an input file (-i may be omitted).\n"
+"-o\t--output\tSpecify the output file.\n"
+"-I\t--includepath\tAdd a directory to the include path.\n"
+"Please send bug reports and feature requests to <shevek@fmf.nl>\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:68
+#, c-format
+msgid "Z80 assembler version "
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:87
+#, c-format
+msgid "Verbosity increased to level %d\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:90
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:131
+msgid "output file"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:93
+#, c-format
+msgid "Opened outputfile\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:99
+msgid "list file"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:101
+#, c-format
+msgid "Opened list file\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:104
+msgid "label file"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:107
+#, c-format
+msgid "Opened label file\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:161
+#, c-format
+msgid "Assembling....\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:172
+#, c-format
+msgid "*** 1 error found ***\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:176
+#, c-format
+msgid "*** %d errors found ***\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/main.c:199
+#, c-format
+msgid "Assembly succesful.\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:88
+#, c-format
+msgid "`,' expected. Remainder of line: %s\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:125
+msgid "unexpected end of line\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:183
+msgid "Piece of code found:"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:190
+msgid "Remainder of line"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:198
+#, c-format
+msgid "parse error. Remainder of line=%s\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:201
+#, c-format
+msgid "When looking for any of:\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:246
+msgid "`:' found without a label"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:265
+#, c-format
+msgid "duplicate definition of label %s\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:274
+#, c-format
+msgid "not enough memory to store label %s\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:283
+msgid "failed to store label name\n"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:293
+msgid "Label found"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:377
+msgid "write_one_byte called with argument"
+msgstr ""
+
+#: /Users/leandro/workspaces/new_z80asm/src/z80asm.c:1609
+#, c-format
+msgid "nested macro found in line %d - did you forget an endm?\n"
+msgstr ""

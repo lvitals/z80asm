@@ -1,0 +1,167 @@
+# Portuguese translations for new_z package.
+# Copyright (C) 2025 THE new_z'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the new_z package.
+# Leandro Vital <leandro@macbook-air-de-leandro.local>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: new_z 80asm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-21 18:13-0300\n"
+"PO-Revision-Date: 2025-03-21 21:35-0300\n"
+"Last-Translator: Leandro Vital <leandro@macbook-air-de-leandro.local>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-"
+"translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../src/main.c:50
+#, c-format
+msgid ""
+"Usage: %s [options] [input files]\n"
+"\n"
+"Possible options are:\n"
+"-h\t--help\t\tDisplay this help text and exit.\n"
+"-V\t--version\tDisplay version information and exit.\n"
+"-v\t--verbose\tBe verbose.  Specify again to be more verbose.\n"
+"-l\t--list\t\tWrite a list file.\n"
+"-L\t--label\t\tWrite a label file.\n"
+msgstr ""
+"Uso: %s [opções] [arquivos de entrada]\n"
+"\n"
+"Possíveis opções são:\n"
+"-h\t--help\t\tExibe este texto de ajuda e sai.\n"
+"-V\t--version\tExibe informações da versão e sai.\n"
+"-v\t--verbose\tSeja verboso. Especifique novamente para ser mais verboso.\n"
+"-l\t--list\t\tEscreve um arquivo de lista.\n"
+"-L\t--label\t\tEscreve um arquivo de rótulos.\n"
+
+#: ../src/main.c:60
+#, c-format
+msgid ""
+"-p\t--label-prefix\tprefix all labels with this prefix.\n"
+"-i\t--input\t\tSpecify an input file (-i may be omitted).\n"
+"-o\t--output\tSpecify the output file.\n"
+"-I\t--includepath\tAdd a directory to the include path.\n"
+"Please send bug reports and feature requests to <shevek@fmf.nl>\n"
+msgstr ""
+"-p\t--label-prefix\tprefixa todos os rótulos com este prefixo.\n"
+"-i\t--input\t\tEspecifica um arquivo de entrada (-i pode ser omitido).\n"
+"-o\t--output\tEspecifica o arquivo de saída.\n"
+"-I\t--includepath\tAdiciona um diretório ao caminho de inclusão.\n"
+"Por favor, envie relatórios de bugs e solicitações de recursos para <shevek@fmf.nl>\n"
+
+#: ../src/main.c:68
+#, c-format
+msgid "Z80 assembler version "
+msgstr "Montador Z80 versão "
+
+#: ../src/main.c:87
+#, c-format
+msgid "Verbosity increased to level %d\n"
+msgstr "Verbosity aumentada para o nível %d\n"
+
+#: ../src/main.c:90 ../src/main.c:131
+msgid "output file"
+msgstr "arquivo de saída"
+
+#: ../src/main.c:93
+#, c-format
+msgid "Opened outputfile\n"
+msgstr "Arquivo de saída aberto\n"
+
+#: ../src/main.c:99
+msgid "list file"
+msgstr "arquivo de lista"
+
+#: ../src/main.c:101
+#, c-format
+msgid "Opened list file\n"
+msgstr "Arquivo de lista aberto\n"
+
+#: ../src/main.c:104
+msgid "label file"
+msgstr "arquivo de rótulos"
+
+#: ../src/main.c:107
+#, c-format
+msgid "Opened label file\n"
+msgstr "Arquivo de rótulos aberto\n"
+
+#: ../src/main.c:152
+#, c-format
+msgid "Assembling....\n"
+msgstr "Montando....\n"
+
+#: ../src/main.c:157
+#, c-format
+msgid "*** 1 error found ***\n"
+msgstr "*** 1 erro encontrado ***\n"
+
+#: ../src/main.c:159
+#, c-format
+msgid "*** %d errors found ***\n"
+msgstr "*** %d erros encontrados ***\n"
+
+#: ../src/main.c:170
+#, c-format
+msgid "Assembly succesful.\n"
+msgstr "Montagem bem-sucedida.\n"
+
+#: ../src/z80asm.c:89
+#, c-format
+msgid "`,' expected. Remainder of line: %s\n"
+msgstr "`,' esperado. Restante da linha: %s\n"
+
+#: ../src/z80asm.c:126
+msgid "unexpected end of line\n"
+msgstr "fim de linha inesperado\n"
+
+#: ../src/z80asm.c:184
+msgid "Piece of code found:"
+msgstr "Trecho de código encontrado:"
+
+#: ../src/z80asm.c:189
+msgid "Remainder of line"
+msgstr "Restante da linha"
+
+#: ../src/z80asm.c:196
+#, c-format
+msgid "parse error. Remainder of line=%s\n"
+msgstr "erro de análise. Restante da linha=%s\n"
+
+#: ../src/z80asm.c:199
+#, c-format
+msgid "When looking for any of:\n"
+msgstr "Ao procurar por qualquer um dos:\n"
+
+#: ../src/z80asm.c:239
+msgid "`:' found without a label"
+msgstr "`:' encontrado sem um rótulo"
+
+#: ../src/z80asm.c:255
+#, c-format
+msgid "duplicate definition of label %s\n"
+msgstr "definição duplicada do rótulo %s\n"
+
+#: ../src/z80asm.c:261
+#, c-format
+msgid "not enough memory to store label %s\n"
+msgstr "memória insuficiente para armazenar o rótulo %s\n"
+
+#: ../src/z80asm.c:269
+msgid "Label found"
+msgstr "Rótulo encontrado"
+
+#: ../src/z80asm.c:318
+msgid "write_one_byte called with argument"
+msgstr "write_one_byte chamado com argumento"
+
+#: ../src/z80asm.c:1555
+#, c-format
+msgid "nested macro found in line %d - did you forget an endm?\n"
+msgstr "macro aninhada encontrada na linha %d - você esqueceu um endm?\n"
